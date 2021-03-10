@@ -1,0 +1,109 @@
+body{
+	font-family: 'Oswald', sans-serif;
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+	background-color: #261037; 
+}
+
+.row{
+	text-align: center;
+	padding-bottom: 20px; 
+}
+.h1portf {
+	padding: 10px 0 10px 0;
+	font-family: 'Merriweather';
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: none;
+}
+.header a {
+	text-decoration: none;
+	font-family: 'Merriweather';
+	color: #d79551;
+	font-weight: bold;
+	font-size: 50px;
+	background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.header a:hover, a:focus {
+    background-size: 100% 2px;
+}
+/*a{
+	font-size: 30px;
+}
+a:hover {
+	color: #ffecc7;
+    text-decoration: underline;
+}*/
+
+.abouttext {
+	color: #e4cccb;
+	font-size: 30px;
+	text-align: center;
+}
+.container{
+	padding: 20px 0 20px 0;
+}
+
+.imgs {
+	height: 250px;
+	width: 250px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-md-4 a{
+	padding-top: 100px;
+	color: #c4c0c2;
+	font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+	display: block;
+	text-decoration: none;
+	background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.col-md-4 a:hover, a:focus {
+    background-size: 50% 2px;
+}
+
+footer{
+	margin-top: 250px;
+	height: 169px;
+	background: #1a1a1a;
+}
+
+footer .footer_wrap{
+	display: flex;
+	justify-content: center;
+}
+
+footer .footer_link, footer .footer_text, footer .footer_link_divider{
+	margin-top: 70px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	text-align: center;
+	color: #888888;
+}
+
+footer .footer_text{
+	margin-top: 0;
+}
+
+footer .footer_link_divider{
+	margin-left: 5px;
+	margin-right: 5px;
+	font-weight: 800;
+}
